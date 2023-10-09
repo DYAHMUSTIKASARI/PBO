@@ -6,11 +6,11 @@ public class HitungLuasPersegi {
              Scanner input = new Scanner(System.in);
              //Minta user untuk memasukkan ukuran sisi persegi
               
-            System.out.print (“Masukkan sisi persegi: ”); 
+            System.out.print ("Masukkan sisi persegi: "); 
             double sisi = input.nextDouble(); 
             // hitung luas
             double luas = sisi * sisi; 
            // tampilkan hasil
-           System.out.print (“Luas persegi: ”+luas); 
+           System.out.print ("Luas persegi: "+luas); 
       }
 } 

@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class HitungLuasPersegi {
+ 
+      public static void main(String[] args) { 
+             //Buat objek Scanner
+             Scanner input = new Scanner(System.in);
+             //Minta user untuk memasukkan ukuran sisi persegi
+              
+            System.out.print (“Masukkan sisi persegi: ”); 
+            double sisi = input.nextDouble(); 
+            // hitung luas
+            double luas = sisi * sisi; 
+           // tampilkan hasil
+           System.out.print (“Luas persegi: ”+luas); 
+      }
+} 

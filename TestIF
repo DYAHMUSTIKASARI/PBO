@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class TestIF{
+	public static void main(String[] apa) 
+	{ 
+	Scanner input = new Scanner(System.in); 
+	System.out.print("Masukkan nilai: "); 
+	int angka = input.nextInt(); 
+	if(angka > 60) 
+	{
+		if(angka%2 == 0)
+		{
+			System.out.println("A");
+		}
+		else
+		{
+			System.out.println("B");
+		}
+	}
+	else if(angka > 30)
+	{
+		System.out.println("C");
+		}
+		else
+		{
+			System.out.println("D");
+		}
+	}
+} 

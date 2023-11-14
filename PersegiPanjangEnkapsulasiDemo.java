@@ -15,7 +15,7 @@ class PersegiPanjangEnkapsulasi {
 		jumlahObjek++;
     }
 
-//method setter untuk property panjang
+	//method setter untuk property panjang
     public void setPanjang(int panjangBaru){
         panjang = panjangBaru;
     }

@@ -1,0 +1,22 @@
+// Contoh class untuk komposisi
+class Mesin {
+    // Class Mesin sebagai bagian integral dari Mobil
+}
+
+class MobilKomposisi {
+    Mesin mesin;
+
+    MobilKomposisi() {
+        this.mesin = new Mesin();
+    }
+}
+
+// Hubungan komposisi antara MobilKomposisi dan Mesin
+class KomposisiExample {
+    public static void main(String[] args) {
+        MobilKomposisi mobil = new MobilKomposisi();
+
+        // Komposisi: Mobil terdiri dari Mesin dan tidak dapat eksis tanpa Mesin
+        System.out.println("Mobil dibuat dengan sukses!");
+    }
+}

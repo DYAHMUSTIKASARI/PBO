@@ -1,0 +1,33 @@
+// Contoh class untuk agregasi
+class Siswa {
+    String nama;
+
+    Siswa(String nama) {
+        this.nama = nama;
+    }
+}
+
+class Kelas {
+    String nama;
+    Siswa[] siswaArray;
+
+    Kelas(String nama, Siswa[] siswaArray) {
+        this.nama = nama;
+        this.siswaArray = siswaArray;
+    }
+}
+
+// Hubungan agregasi antara Kelas dan Siswa
+class AgregasiExample {
+    public static void main(String[] args) {
+        Siswa siswa1 = new Siswa("Alice");
+        Siswa siswa2 = new Siswa("Bob");
+
+        Siswa[] siswaArray = {siswa1, siswa2};
+
+        Kelas kelas = new Kelas("Kelas A", siswaArray);
+
+        // Agregasi: Kelas memiliki siswa sebagai bagian, tetapi siswa dapat eksis sendiri
+        System.out.println("Jumlah siswa dalam kelas " + kelas.nama + ": " + kelas.siswaArray.length);
+    }
+}

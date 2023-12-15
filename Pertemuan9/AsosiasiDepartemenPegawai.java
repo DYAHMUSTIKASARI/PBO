@@ -1,4 +1,4 @@
-public class Departemen {
+class Departemen {
     private String nama;
 
     public Departemen(String nama) {
@@ -10,7 +10,7 @@ public class Departemen {
     }
 }
 
-public class Pegawai {
+class Pegawai {
     private String nama;
     private Departemen departemen;
 
@@ -28,7 +28,7 @@ public class Pegawai {
     }
 }
 
-public class Main {
+public class AsosiasiDepartemenPegawai {
     public static void main(String[] args) {
         // Membuat objek departemen
         Departemen departemenIT = new Departemen("Departemen IT");

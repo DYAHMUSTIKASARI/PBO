@@ -5,3 +5,5 @@ Jika belum ada library nya maka silahkan create dulu, misalnya untuk kasus ini a
 ![image](https://github.com/DYAHMUSTIKASARI/PBO/assets/120073741/dfba705e-9691-4169-a703-b9b0709b4540)
 baru kemudian tambahkan file jar yang sudah diunduh dari https://dev.mysql.com/downloads/connector/j/
 dengan mengeklik tombol “Add Library”.
+Untuk desain form seperti gambar di bawah ini:
+![image](https://github.com/DYAHMUSTIKASARI/PBO/assets/120073741/2544af4f-a69f-4bbf-9a82-71004195fa04)

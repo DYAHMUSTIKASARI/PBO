@@ -14,6 +14,7 @@ Untuk Connector JDBC di OS Windows bisa diunduh di sini https://go.microsoft.com
 Buat folder lib nya jika belum ada di dalam libraries, berikan nama sesuai dengan kebutuhan misal JavaFX , MySQL JDBC Driver
 ![image](https://github.com/DYAHMUSTIKASARI/PBO/assets/120073741/dfba705e-9691-4169-a703-b9b0709b4540)
 Tambahkan library dengan klik menu “Window > Projects”. Pilih salah satu project lalu klik kanan “Libraries > Add Library” atau "Add JAR/Folder".
+Anda dapat menonton tutorial semacam ini https://www.youtube.com/watch?v=xtkx8lRUdlM
 
 4. Buat file untuk koneksi ke Database, pada contoh ini adalah KoneksiMysql.java
    

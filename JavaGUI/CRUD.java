@@ -6,7 +6,7 @@ import java.sql.Statement;
 import java.sql.ResultSet; 
 import java.sql.SQLException; 
 
-public class CRUD {
+public class CRUD extends AbstractCRUD implements DatabaseActions {
     private String id, nama, alamat; 
 	 private Connection CRUDkoneksi; 
 	 private PreparedStatement CRUDpsmt; 
@@ -22,37 +22,44 @@ public class CRUD {
      System.out.println(ex);
  } 
  }
- 
+
+ @Override
  public void setID(String id) 
  { 
  this.id = id; 
  }
- 
+
+@Override
  public String getID() 
  { 
  return id; 
  }
- 
+
+@Override
  public void setNama(String nama)
  {
  this.nama = nama; 
  }
- 
+
+@Override
  public String getNama() 
  { 
  return nama; 
  }
- 
+
+@Override
  public void setAlamat(String alamat) 
  { 
  this.alamat = alamat; 
  }
- 
+
+@Override
  public String getAlamat() 
  { 
  return alamat; 
  }
- 
+
+@Override
  public ResultSet tampilData() 
  { CRUDquery = "select * from siswa"; 
  try { 
@@ -63,7 +70,8 @@ public class CRUD {
  }
  return CRUDhasil; 
  }
- 
+
+@Override
  public void simpanData(String id,String nama, String alamat)
  { CRUDquery = "insert into siswa values(?,?,?)"; 
  try { 
@@ -77,7 +85,8 @@ public class CRUD {
  System.out.println(e);
  }
  }
- 
+
+@Override
  public void ubahData(String id, String nama, String alamat) 
  { CRUDquery = "update siswa set nama=?, alamat=? where id=?"; 
  try { 
@@ -91,7 +100,8 @@ public class CRUD {
  System.out.println(e);
  }
  }
- 
+
+@Override
  public void hapusData(String id) 
  { CRUDquery = "delete from siswa where id=?";
  try {

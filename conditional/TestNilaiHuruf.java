@@ -8,7 +8,7 @@ public class TestNilaiHuruf{
 		{
 			System.out.println("A");
 			}
-			else if(angka >= 70 && angka <= 84)
+			else if(angka >= 70 && angka <= 85)
 			{
 				System.out.println("B");
 			}

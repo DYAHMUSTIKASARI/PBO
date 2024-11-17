@@ -1,4 +1,4 @@
-package pbo2024.satu;
+package inheritance;
 
 
 public class MahasiswaTI extends Mahasiswa{

@@ -42,7 +42,7 @@ public class Mahasiswa {
         return tahunMasuk + 4;
     }
 
-  //getter dengan nilai balik tipe doubel
+  //getter dengan nilai balik tipe double
   public double getIPK() {
         return ipk;
     }

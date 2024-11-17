@@ -1,4 +1,4 @@
-package pbo2024.satu;
+package inheritance;
 
 public class Mahasiswa {
     int NIM;
